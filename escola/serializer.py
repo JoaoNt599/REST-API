@@ -1,8 +1,7 @@
 # Esse arquivo converte o formato dos dados para json
 
-from rest_framework import  serializers
+from rest_framework import serializers
 from escola.models import Aluno, Curso
-
 
 class AlunoSerializer(serializers.ModelSerializer):
     class Meta:
